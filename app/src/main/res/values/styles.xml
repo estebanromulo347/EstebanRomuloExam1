@@ -1,0 +1,154 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="rs1">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_marginBottom">13dp</item>
+        <item name="android:layout_marginEnd">7dp</item>
+        <item name="android:layout_marginLeft">7dp</item>
+        <item name="android:layout_marginRight">7dp</item>
+        <item name="android:layout_marginStart">7dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+    </style>
+
+    <style name="dt1">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">33dp</item>
+        <item name="android:text">Daenerys Targaryen</item>
+        <item name="android:textColor">@android:color/holo_red_dark</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="dt2">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">33dp</item>
+        <item name="android:layout_below">@+id/textView3</item>
+        <item name="android:text">Queen</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <style name="dimg">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">92dp</item>
+        <item name="android:layout_height">91dp</item>
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+
+    <style name="dt3">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:text">Queen Daenerys Targaryen, also known as Dany and Daenerys Stormborn, is the younger sister of Rhaegar Targaryen and Viserys Targaryen and only daughter of King Aerys II Targaryen and Queen Rhaella Targaryen</item>
+    </style>
+
+    <style name="rs2">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_marginBottom">13dp</item>
+        <item name="android:layout_marginEnd">7dp</item>
+        <item name="android:layout_marginLeft">7dp</item>
+        <item name="android:layout_marginRight">7dp</item>
+        <item name="android:layout_marginStart">7dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+    </style>
+
+    <style name="jt1">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">33dp</item>
+        <item name="android:text">Jon Snow</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="jt2">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">33dp</item>
+        <item name="android:layout_below">@+id/textView10</item>
+        <item name="android:text">Knight</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <style name="jimg">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">92dp</item>
+        <item name="android:layout_height">91dp</item>
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+
+    <style name="jt3">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:text">Jon Snow, born Aegon Targaryen, is the son of Lyanna Stark and Rhaegar Targaryen, the late Prince of Dragonstone. From infancy, Jon is presented as the bastard son of Lord Eddard Stark</item>
+    </style>
+
+    <style name="rs3">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_marginBottom">29dp</item>
+        <item name="android:layout_marginEnd">7dp</item>
+        <item name="android:layout_marginLeft">7dp</item>
+        <item name="android:layout_marginRight">7dp</item>
+        <item name="android:layout_marginStart">7dp</item>
+    </style>
+
+    <style name="jl1">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">33dp</item>
+        <item name="android:text">Jaime Lannister</item>
+        <item name="android:textColor">@android:color/holo_red_light</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="jl2">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">33dp</item>
+        <item name="android:layout_below">@+id/textView42</item>
+        <item name="android:text">Knight</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <style name="jlimg">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">92dp</item>
+        <item name="android:layout_height">91dp</item>
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+
+    <style name="jl3">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:text">Ser Jaime Lannister is the eldest son of Tywin, younger twin brother of Cersei, and older brother of Tyrion Lannister. He was involved in an incestuous relationship with Cersei</item>
+    </style>
+
+</resources>

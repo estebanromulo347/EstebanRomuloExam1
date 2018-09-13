@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        style="@style/rs1"
+        android:background="@drawable/border"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/dt1" />
+
+        <TextView
+            android:id="@+id/textView5"
+            style="@style/dt2" />
+
+        <ImageView
+            style="@style/dimg"
+            app:srcCompat="@drawable/de" />
+
+        <TextView
+            android:id="@+id/textView6"
+            style="@style/dt3" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        style="@style/rs2"
+        android:background="@drawable/border"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout">
+
+        <TextView
+            android:id="@+id/textView10"
+            style="@style/jt1" />
+
+        <TextView
+            android:id="@+id/textView11"
+            style="@style/jt2" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            style="@style/jimg"
+            app:srcCompat="@drawable/js" />
+
+        <TextView
+            android:id="@+id/textView13"
+            style="@style/jt3" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        style="@style/rs3"
+        android:background="@drawable/border"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout2">
+
+        <TextView
+            android:id="@+id/textView42"
+            style="@style/jl1" />
+
+        <TextView
+            android:id="@+id/textView43"
+            style="@style/jl2" />
+
+        <ImageView
+            android:id="@+id/imageView44"
+            style="@style/jlimg"
+            app:srcCompat="@drawable/jl" />
+
+        <TextView
+            android:id="@+id/textView45"
+            style="@style/jl3"/>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
